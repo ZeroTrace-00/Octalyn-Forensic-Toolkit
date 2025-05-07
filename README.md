@@ -73,6 +73,10 @@ Octalyn is a **C++ forensic analysis utility**, designed for use in educational 
 
 ---
 
+## Go to the releases section to get the compiled version of the "toolkit" 
+
+---
+
 ## 🔍 Research Purposes Only
 
 This tool is designed for:

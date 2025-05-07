@@ -1,97 +1,92 @@
-# Octalyn-Stealer-C-Telegram
-Version Telegram Of Octalyn Stealer C++
-Octalyn Stealer Is A C++ Stealer, Designed To Steal Info.
+# Octalyn-Forensic-Toolkit
 
+**Version: Telegram-Enabled Module for Octalyn (C++)**
 
-![octa](https://github.com/user-attachments/assets/fa24b91f-e5ba-4a69-9902-a85b9b6cbe70)
+Octalyn is a **C++ forensic analysis utility**, designed for use in educational and controlled research environments. This version includes integration with Telegram for remote logging in lab setups.
+
+![octa](https://github.com/user-attachments/assets/fa24b91f-e5ba-4a69-9902-a85b9b6cbe70)  
 ![Untitled](https://github.com/user-attachments/assets/8eae00d5-9c3b-41c1-b583-c2ef15c5947f)
 
-https://t.me/NeverTrace
+---
 
-# Octalyn Stealer
+## 📘 Disclaimer
 
-> ⚠️ **Disclaimer:** This project is intended strictly for educational and research purposes. The author does **not** endorse or promote unauthorized access, data theft, or malicious use of any kind. Use responsibly and only in legal, ethical contexts.
+> ⚠️ This project is intended **solely for cybersecurity education**, ethical red teaming, and digital forensics research.  
+> Do **not** use this project to gain unauthorized access or violate the terms of service of any software or service. All activities must comply with applicable laws and institutional policies.
 
 ---
 
-## 🧠 About
+## 🧠 Overview
 
-**Octalyn Stealer** is a modular data analysis tool built in **C++** and powered by a **Delphi-based control panel**. Designed to operate across all modern Windows systems, it extracts valuable forensic and session data from browsers, wallets, gaming platforms, and messaging applications.
-
----
-
-## 📦 Features
-
-### 🔐 Browser & Credentials
-- All browser-stored passwords (Chromium-based browsers)
-- Non-expired cookies (usable for session hijacking in research contexts)
-- Full browser history, bookmarks, and autofill data
-
-### 💬 Messaging Platforms
-- Discord Token recovery (Stable & Canary)
-- Telegram, QTox, Signal, Skype, Viber
-
-### 🕹️ Gaming Platforms
-- Minecraft session and account tokens
-- Steam dumper
-- Epic Games launcher token extractor
-- UbiSoft Connect
-
-### 💰 Cryptocurrency Wallets
-- Browser-injected wallets:
-  - MetaMask
-  - Phantom
-  - BitPay
-  - TrustWallet
-- Desktop wallets:
-  - Exodus
-  - Atomic
-
-### 🛡️ VPN & Other Software
-- Surfshark credentials and configs
-- Growtopia account data
+**Octalyn Forensic Toolkit** is a modular C++ application supported by a Delphi-based control interface. It is built to assist researchers in analyzing locally stored user session data, configurations, and behavioral artifacts from common applications—useful in malware reverse engineering, session token research, and forensic simulations.
 
 ---
 
-## 💻 Compatibility
+## 🧩 Modules & Capabilities (Research-Oriented)
 
-### 🪟 Client/Stub (C++) — Windows:
-- Windows XP  
-- Windows 7  
-- Windows 8 / 8.1  
-- Windows 10  
-- Windows 11  
-- Compiled with `-O3` optimizations for maximum speed
+### 🌐 Web Browsers
+- Retrieval of saved credentials and session cookies (Chromium-based engines)
+- Analysis of user browsing history, bookmarks, and form-fill entries
 
-### 🖥️ Control Panel (Delphi):
-- Windows & Linux panel support:
-  - Debian-based systems
-  - Arch-based systems
+### 💬 Communication Apps
+- Recovery of tokens and config traces from:
+  - Discord (stable & canary builds)
+  - Telegram, QTox, Signal, Skype, Viber
+
+### 🕹️ Gaming & Launchers
+- Token inspection modules for:
+  - Minecraft
+  - Steam
+  - Epic Games Launcher
+  - Ubisoft Connect
+
+### 💼 Crypto Wallet Artifacts
+- Session and configuration artifact extractors for:
+  - MetaMask, Phantom, BitPay, TrustWallet
+  - Desktop apps like Exodus and Atomic Wallet
+
+### 🛡️ Network and Misc
+- VPN configuration extraction (e.g., Surfshark)
+- Data inspection for sandbox game profiles (e.g., Growtopia)
+
+---
+
+## 💻 System Compatibility
+
+### 🔧 C++ Client Module
+- Supported on:
+  - Windows XP, 7, 8, 8.1, 10, 11
+- Compiled with `-O3` optimization flags
+
+### 🖥️ Delphi Control Panel
+- Compatible with:
+  - Windows systems
+  - Linux distributions (Debian, Arch)
 
 ---
 
 ## 🛠 Technologies Used
-- C/C++ for the client (stub)
-- Delphi for the control panel (GUI)
-- Winsock API for communication
-- Native Windows API for file system, registry, and credential access
+- C++ (Client Module)
+- Delphi (Control Panel Interface)
+- Winsock API (Network communication)
+- Windows API (Filesystem and registry access)
 
 ---
 
-## 🧪 For Educational Use Only
+## 🔍 Research Purposes Only
 
-Octalyn is built for:
-- Reverse engineering practice
-- Security research and red teaming simulations
-- Understanding credential management and data exposure risks
-- Browser and wallet session analysis
+This tool is designed for:
+- Malware behavior simulation in controlled environments
+- Security awareness training and red team exercises
+- Analyzing exposure surfaces in software
+- Understanding how credentials and tokens are stored locally
 
-> ❗ **Never deploy on unauthorized systems. Unauthorized use is illegal and unethical.**
+> ❗ **Never use this toolkit outside of ethical, legal, and controlled lab settings.**
 
 ---
 
 ## 👤 Author
 
-**zerotrace**
+**zerotrace** — Independent researcher focused on applied security engineering and digital forensics.
 
-Feel free to fork, study, and contribute responsibly.
+Fork, learn, and contribute—**ethically and responsibly**.

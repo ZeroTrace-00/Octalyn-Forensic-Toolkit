@@ -93,4 +93,6 @@ This tool is designed for:
 
 **zerotrace** — Independent researcher focused on applied security engineering and digital forensics.
 
+https://t.me/zerotrace_00
+
 Fork, learn, and contribute—**ethically and responsibly**.

